@@ -1,4 +1,4 @@
-# SMFA: 3D Sparse Multi-Fourier Attention Network for Plant Segmentation and Classification
+# SMFCA: 3D Sparse Multi-Fourier Attention Network for Plant Segmentation and Classification
 
 ![SMFCA-Net.png](figs%2FSMFCA-Net.png)
 ![MFCA.png](figs%2FMFCA.png)
@@ -21,9 +21,9 @@ cd ../..
 
 ## Datasets
 
-- Crops3D
-- Pheno4D
-- Maize-SYAU
+- Crops3D: 10.1038/s41597-024-04290-0
+- Pheno4D: 10.1371/journal.pone.0256340
+- Maize-SYAU: 10.1016/j.isprsjprs.2024.03.025
 - Peanut
 
 ## Model Results
@@ -38,6 +38,19 @@ python tools/train.py --config-file configs/plant3d_organ_semantic/2Maize/semseg
 Test:
 ```bash
 python tools/test.py --config-file configs/plant3d_organ_semantic/2Maize/semseg-smfca-v4m0-0-base.py  --options save_path="exp/plant3d_organ_semantic/2Maize/semseg-spfa-v4m0-0-base_exp_0721" weight="exp/plant3d_organ_semantic/2Maize/semseg-spfa-v4m0-0-base_exp_0721/model/model_best.pth"
+```
+
+We have released the trained model weights and segmentation results for classification, semantic segmentation, and instance segmentation:  
+[model_pth]()
+
+
+
+## Reference
+- [Pointcept](https://github.com/Pointcept/Pointcept)
+
+## Citation
+
+```
 
 ```
 
