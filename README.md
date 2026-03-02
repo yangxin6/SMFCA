@@ -51,6 +51,16 @@ We have released the trained model weights and segmentation results for classifi
 ## Citation
 
 ```
+@ARTICLE{11381999,
+  author={Yang, Xin and Shang, Zhijun and Huang, He and Liu, Congjun and Xu, Tongyu and Miao, Teng},
+  journal={IEEE Transactions on Geoscience and Remote Sensing}, 
+  title={SMFCA-Net: Sparse Multifrequency Cross-Attention Network for Single-Plant Point Cloud Classification and Segmentation}, 
+  year={2026},
+  volume={64},
+  number={},
+  pages={1-17},
+  keywords={Three-dimensional displays;Point cloud compression;Transformers;Semantics;Windows;Instance segmentation;Frequency-domain analysis;Spatial resolution;Solid modeling;Robustness;3-D Fourier transform;classification;frequency transform;plant point clouds;segmentation},
+  doi={10.1109/TGRS.2026.3662324}}
 
 ```
 
