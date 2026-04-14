@@ -41,7 +41,7 @@ python tools/test.py --config-file configs/plant3d_organ_semantic/2Maize/semseg-
 ```
 
 We have released the trained model weights and segmentation results for classification, semantic segmentation, and instance segmentation:  
-[model_pth]()
+[model_pth](https://www.kaggle.com/datasets/yangxin6/smfca-model-weights)
 
 
 
